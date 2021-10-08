@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="CucumberFramework" tests="6" started="6" failures="2" errors="0" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="8.417">
+    <testsuite name="Feature: Login into account" time="8.417">
+      <testsuite name="Scenario: Login into account with correct credentials" time="8.417" incomplete="true">
+        <failure>java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;[[FirefoxDriver: firefox on ANY (acc75782-6ca4-43a9-9c07-2cc293118655)] -&gt; xpath: //a[contains(text(), 'Ask Question')]]&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.steps.LoginSteps.user_should_be_taken_to_the_successful_login_page(LoginSteps.java:57)&#13;
+	at ✽.Then User should be taken to the successful login page(Login.feature:10)&#13;
+&#13;
+</failure>
+        <testcase name="Given User navigates to stackoverflow website" classname="Scenario: Login into account with correct credentials" time="0.156"/>
+        <testcase name="And User clicks on the login button on homepage" classname="Scenario: Login into account with correct credentials" time="3.119"/>
+        <testcase name="And User enters a valid username" classname="Scenario: Login into account with correct credentials" time="0.056"/>
+        <testcase name="And User enters a valid password" classname="Scenario: Login into account with correct credentials" time="0.061"/>
+        <testcase name="When User clicks on the login button" classname="Scenario: Login into account with correct credentials" time="5.022"/>
+        <testcase name="Then User should be taken to the successful login page" classname="Scenario: Login into account with correct credentials" time="0.003">
+          <failure>java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;[[FirefoxDriver: firefox on ANY (acc75782-6ca4-43a9-9c07-2cc293118655)] -&gt; xpath: //a[contains(text(), 'Ask Question')]]&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at CucumberFramework.steps.LoginSteps.user_should_be_taken_to_the_successful_login_page(LoginSteps.java:57)&#13;
+	at ✽.Then User should be taken to the successful login page(Login.feature:10)&#13;
+&#13;
+</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

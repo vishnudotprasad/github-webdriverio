@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="CucumberFramework" tests="6" started="6" failures="0" errors="2" ignored="3">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="0.862">
+    <testsuite name="Feature: Login into account" time="0.862">
+      <testsuite name="Scenario: Login into account with correct credentials" time="0.21" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'GI', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\GBruno\AppData\Local\Temp\rust_mozprofile.m85kar3y27tz, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.2, platformVersion=10.0, moz:processID=7580.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6df14800-311e-4dfd-9c2f-720ec714cc5e
+*** Element info: {Using=xpath, value=.//*[@id='email']}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)&#13;
+	at CucumberFramework.steps.LoginSteps.user_enters_a_valid_username(LoginSteps.java:38)&#13;
+	at ✽.And User enters a valid username(Login.feature:7)&#13;
+&#13;
+</error>
+        <testcase name="Given User navigates to stackoverflow website" classname="Scenario: Login into account with correct credentials" time="0.154"/>
+        <testcase name="And User clicks on the login button on homepage" classname="Scenario: Login into account with correct credentials" time="0.048"/>
+        <testcase name="And User enters a valid username" classname="Scenario: Login into account with correct credentials" time="0.007">
+          <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'GI', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\GBruno\AppData\Local\Temp\rust_mozprofile.m85kar3y27tz, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.2, platformVersion=10.0, moz:processID=7580.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6df14800-311e-4dfd-9c2f-720ec714cc5e
+*** Element info: {Using=xpath, value=.//*[@id='email']}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)&#13;
+	at CucumberFramework.steps.LoginSteps.user_enters_a_valid_username(LoginSteps.java:38)&#13;
+	at ✽.And User enters a valid username(Login.feature:7)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And User enters a valid password" classname="Scenario: Login into account with correct credentials" time="0.003" ignored="true"/>
+        <testcase name="When User clicks on the login button" classname="Scenario: Login into account with correct credentials" time="0.002" ignored="true"/>
+        <testcase name="Then User should be taken to the successful login page" classname="Scenario: Login into account with correct credentials" time="0.636" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

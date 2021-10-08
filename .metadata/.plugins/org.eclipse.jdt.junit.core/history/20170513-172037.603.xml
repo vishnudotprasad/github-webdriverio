@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="CucumberFramework" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="3.744">
+    <testsuite name="Feature: Login into account" time="3.744">
+      <testsuite name="Scenario: Login into account with correct credentials" time="3.744">
+        <testcase name="Given User navigates to stackoverflow website" classname="Scenario: Login into account with correct credentials" time="0.116"/>
+        <testcase name="And User clicks on the login button on homepage" classname="Scenario: Login into account with correct credentials" time="3.088"/>
+        <testcase name="And User enters a valid username" classname="Scenario: Login into account with correct credentials" time="0.065"/>
+        <testcase name="And User enters a valid password" classname="Scenario: Login into account with correct credentials" time="0.007"/>
+        <testcase name="When User clicks on the login button" classname="Scenario: Login into account with correct credentials" time="0.0"/>
+        <testcase name="Then User should be taken to the successful login page" classname="Scenario: Login into account with correct credentials" time="0.465"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

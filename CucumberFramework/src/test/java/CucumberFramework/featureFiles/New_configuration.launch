@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="cucumber.eclipse.launching.localCucumberFeature">
+    <stringAttribute key="cucumber feature" value="/Users/vishnuprasad/Desktop/WebdriverUniversity/CucumberFramework/src/test/java/CucumberFramework/featureFiles/Login.feature"/>
+    <stringAttribute key="glue path" value="classpath:"/>
+    <booleanAttribute key="is html formatter?" value="false"/>
+    <booleanAttribute key="is json formatter?" value="false"/>
+    <booleanAttribute key="is junit formatter" value="false"/>
+    <booleanAttribute key="is monochrome?" value="true"/>
+    <booleanAttribute key="is pretty formatter?" value="true"/>
+    <booleanAttribute key="is progress formatter?" value="false"/>
+    <booleanAttribute key="is rerun formatter" value="false"/>
+    <booleanAttribute key="is usage formatter" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;ECLIPSE_HOME&quot; path=&quot;2&quot; type=&quot;3&quot;/&gt;&#10;"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;TESTNG_HOME&quot; path=&quot;2&quot; type=&quot;3&quot;/&gt;&#10;"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="WebdriverUniversity"/>
+</launchConfiguration>

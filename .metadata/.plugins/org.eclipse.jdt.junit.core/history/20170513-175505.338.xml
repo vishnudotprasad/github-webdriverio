@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="CucumberFramework" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="6.446">
+    <testsuite name="Feature: Login into account" time="6.446">
+      <testsuite name="Scenario: Login into account with correct credentials" time="6.446" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(), 'Ask Question')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'GI', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\GBruno\AppData\Local\Temp\rust_mozprofile.QAaS6bFTq5wF, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.2, platformVersion=10.0, moz:processID=13168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 920d6757-677b-497b-9547-f04236213906
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Ask Question')]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)&#13;
+	at CucumberFramework.steps.LoginSteps.user_should_be_taken_to_the_successful_login_page(LoginSteps.java:56)&#13;
+	at ✽.Then User should be taken to the successful login page(Login.feature:10)&#13;
+&#13;
+</error>
+        <testcase name="Given User navigates to stackoverflow website" classname="Scenario: Login into account with correct credentials" time="0.166"/>
+        <testcase name="And User clicks on the login button on homepage" classname="Scenario: Login into account with correct credentials" time="3.127"/>
+        <testcase name="And User enters a valid username" classname="Scenario: Login into account with correct credentials" time="0.058"/>
+        <testcase name="And User enters a valid password" classname="Scenario: Login into account with correct credentials" time="0.056"/>
+        <testcase name="When User clicks on the login button" classname="Scenario: Login into account with correct credentials" time="3.032"/>
+        <testcase name="Then User should be taken to the successful login page" classname="Scenario: Login into account with correct credentials" time="0.007">
+          <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(), 'Ask Question')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'GI', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\GBruno\AppData\Local\Temp\rust_mozprofile.QAaS6bFTq5wF, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.2, platformVersion=10.0, moz:processID=13168.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 920d6757-677b-497b-9547-f04236213906
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Ask Question')]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)&#13;
+	at CucumberFramework.steps.LoginSteps.user_should_be_taken_to_the_successful_login_page(LoginSteps.java:56)&#13;
+	at ✽.Then User should be taken to the successful login page(Login.feature:10)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
